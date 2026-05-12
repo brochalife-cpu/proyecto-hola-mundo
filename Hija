@@ -1,0 +1,10 @@
+public class Hija {
+    public static void main(String[] args) {
+        Padre padre1 = new Padre("Chris", "Melendez Sanchez", 4);
+
+        padre1.setNombre("Chris");
+        padre1.setApellidos("Melendez Sanchez");
+
+        System.out.println("Datos del niño: " + padre1.toString());
+    }
+}
